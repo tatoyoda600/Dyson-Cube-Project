@@ -37,6 +37,6 @@ public class Config {
     @ConfigVal.InRangeInt(min = 1)
     public static int RAIL_EJECTOR_CONSUME = 40;
 
-    @ConfigVal(comment = "Set to 'true' to require power for the em railejector to semd items")
-    public static bool RAIL_EJECTOR_REQUIRES_POWER = false;
+    @ConfigVal(comment = "Set to 'true' to require power for the em railejector to send items")
+    public static boolean RAIL_EJECTOR_REQUIRES_POWER = false;
 }
