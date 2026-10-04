@@ -212,7 +212,6 @@ public class DysonCubeProject extends ModuleController {
             var sphere = data.getSpheres().get(sphereName);
             if (sphere == null) continue;
             var progress = sphere.getProgress() * 100;
-            System.out.println("Progress: " + progress);
             var amounts = new int[]{5, 15, 25, 50, 75, 100};
             for (int amount : amounts) {
                 if (progress >= amount) {
